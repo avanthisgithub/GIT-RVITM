@@ -1,5 +1,5 @@
 //parking slot availability
-//design code
+----> //design code
 module parking_slots(exit_s,entry,clk,rst,G,Y,R);
   input clk,rst,entry,exit_s;
   output G,Y,R;
@@ -20,7 +20,7 @@ assign R=&C;
 assign Y=(~G)&(~R);
 endmodule
 
-//testbench code
+----> //testbench code
 module parking_slots(exit_s,entry,clk,rst,G,Y,R);
   input clk,rst,entry,exit_s;
   output G,Y,R;
